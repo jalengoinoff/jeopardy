@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #start-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4c6ede;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #restart-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4c6ede;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Abril Fatface', sans-serif;
+  }
+  
+  #game {
+    display: flex;
+    background-color: rgb(76, 110, 222);
+  }
+  
+  .card {
+    width: 160px;
+    height: 120px;
+    background-color: (blue);
+    border-left: solid rgb(109, 109, 206) 10px;
+    border-right: solid rgb(4, 4, 112) 10px;
+    border-top: solid rgb(12, 12, 85) 10px;
+    border-bottom: solid rgb(49, 194, 243) 10px;
+    text-align: center;
+    font-size: 10px;
+    margin: 5px;
+    padding: 10px;
+  }
+  .game-over-popup {
+    
+    background-color: red;
+    color: white;
+  }
+  .first-button {
+    background-color: rgb(132, 233, 255);
+  }
+  
+  .second-button {
+    background-color: rgb(132, 233, 255);
+  }
+  
+  .genre-title {
+    background-color: rgb(0, 30, 255);
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .correct-answer {
+    background-color: rgb(11, 255, 60);
+  }
+  
+  .wrong-answer {
+    background-color: red;
+  }
+  
+  .card-text {
+    margin-bottom: 5px;
+  }
+  
+  .card-answer {
+    font-size: 12px;
+  }
+  
+  .correct-answer {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .wrong-answer {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 10px;
+  }
