@@ -3,3 +3,5 @@ The a Jeopardy  application built using HTML, CSS, and JavaScript. The players s
 # built with
 
 HTML, CSS, and JavaScript
+# live at
+ https://jalengoinoff.github.io/jeopardy/
